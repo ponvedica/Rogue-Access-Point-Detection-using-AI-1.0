@@ -33,11 +33,11 @@ This project introduces a **two-stage detection system**:
 
 ## Features
 
-- 🔍 **Pre-Connection Scan** – Identifies open, duplicate, or suspicious Wi-Fi SSIDs.  
-- 🤖 **AI-Powered Detection** – Analyzes network traffic using Deep Neural Networks.  
-- 📊 **Risk Assessment** – Generates a **Safety Score** and **Evil Twin Probability**.  
-- 🖥️ **Interactive Interface** – Built with Streamlit for simple, visual results.  
-- 💾 **Dataset-Based Training** – Uses real-world network datasets for learning malicious patterns.  
+- **Pre-Connection Scan** – Identifies open, duplicate, or suspicious Wi-Fi SSIDs.  
+- **AI-Powered Detection** – Analyzes network traffic using Deep Neural Networks.  
+- **Risk Assessment** – Generates a **Safety Score** and **Evil Twin Probability**.  
+- **Interactive Interface** – Built with Streamlit for simple, visual results.  
+- **Dataset-Based Training** – Uses real-world network datasets for learning malicious patterns.  
 
 ---
 
@@ -129,18 +129,18 @@ The detection model uses **Deep Neural Networks (DNNs)**, including **CNN** and 
 
 ## Limitations
 
-- ❌ **No RF Fingerprinting** – Physical radio frequency features are not included due to dataset limitations.  
-- ⚠️ **Dataset-Dependent** – Model accuracy depends on dataset quality and real-world similarity.  
-- 🌐 **Platform Limitations** – Some scanning commands may differ across operating systems.  
+- **No RF Fingerprinting** – Physical radio frequency features are not included due to dataset limitations.  
+- **Dataset-Dependent** – Model accuracy depends on dataset quality and real-world similarity.  
+- **Platform Limitations** – Some scanning commands may differ across operating systems.  
 
 ## Contributors  
 
-- [Ponvedica M.S](https://github.com/ponvedica)  
-- [Soffia K.N](https://github.com/Soffia-275)  
+- [Ponvedica](https://github.com/ponvedica)  
+- [Soffia](https://github.com/Soffia-275)  
 - [Vedhavarshini Vijayakumar](https://github.com/vedha73varshini)
 
 
 
-🔒 **Ethical Use Notice:**  
-This tool is intended for educational and defensive purposes only.  
-Unauthorized scanning or analysis of networks you do not own may violate local laws and regulations.
+>  **Ethical Use Notice:**  
+> This tool is intended for educational and defensive purposes only.  
+> Unauthorized scanning or analysis of networks you do not own may violate local laws and regulations.
