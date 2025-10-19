@@ -139,7 +139,7 @@ The detection model uses **Deep Neural Networks (DNNs)**, including **CNN** and 
 - [Soffia](https://github.com/Soffia-275)  
 - [Vedhavarshini Vijayakumar](https://github.com/vedha73varshini)
 
-
+---
 
 >  **Ethical Use Notice:**  
 > This tool is intended for educational and defensive purposes only.  
