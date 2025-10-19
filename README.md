@@ -132,3 +132,15 @@ The detection model uses **Deep Neural Networks (DNNs)**, including **CNN** and 
 - ❌ **No RF Fingerprinting** – Physical radio frequency features are not included due to dataset limitations.  
 - ⚠️ **Dataset-Dependent** – Model accuracy depends on dataset quality and real-world similarity.  
 - 🌐 **Platform Limitations** – Some scanning commands may differ across operating systems.  
+
+## Contributors  
+
+- [Ponvedica M.S](https://github.com/ponvedica)  
+- [Soffia K.N](https://github.com/Soffia-275)  
+- [Vedhavarshini Vijayakumar](https://github.com/vedha73varshini)
+
+
+
+🔒 **Ethical Use Notice:**  
+This tool is intended for educational and defensive purposes only.  
+Unauthorized scanning or analysis of networks you do not own may violate local laws and regulations.
