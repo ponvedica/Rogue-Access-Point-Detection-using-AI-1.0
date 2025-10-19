@@ -80,3 +80,55 @@ The model is trained using combined data from:
 git clone https://github.com/yourusername/rogue-ap-detection.git
 cd rogue-ap-detection
 pip install -r requirements.txt
+```
+
+## Usage 
+
+###1. Run the Application
+```bash
+streamlit run app.py
+```
+
+## 2. Perform a Pre-Connection Scan
+
+Click **“Scan Networks”** to view nearby Wi-Fi networks.
+
+The app assigns each network a **Risk Score** based on:
+- Open connections  
+- Duplicate SSIDs  
+- Suspicious words (e.g., “Free”, “Public”, “Evil”)  
+
+---
+
+## 3. AI-Based Analysis
+
+Connect to a Wi-Fi network.
+
+The trained model analyzes the captured traffic and predicts:
+- **Safety Score**  
+- **Evil Twin Probability**  
+- **Recommended Action**  
+
+---
+
+## AI Model
+
+The detection model uses **Deep Neural Networks (DNNs)**, including **CNN** and **LSTM** architectures.
+
+**Input Features:**
+- Flow duration, packet count, and packet size  
+- Forward/backward traffic statistics  
+- TCP flag analysis (PSH, URG)  
+- SSID keyword patterns  
+
+**Output:**
+- Classification: `Legitimate` or `Evil Twin`  
+- Confidence-based **Safety Score**
+
+---
+
+## Limitations
+
+- ❌ **No RF Fingerprinting** – Physical radio frequency features are not included due to dataset limitations.  
+- ⚠️ **Dataset-Dependent** – Model accuracy depends on dataset quality and real-world similarity.  
+- 🌐 **Platform Limitations** – Some scanning commands may differ across operating systems.  
