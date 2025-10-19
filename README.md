@@ -89,7 +89,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 2. Perform a Pre-Connection Scan
+### 2. Perform a Pre-Connection Scan
 
 Click **“Scan Networks”** to view nearby Wi-Fi networks.
 
@@ -100,7 +100,7 @@ The app assigns each network a **Risk Score** based on:
 
 ---
 
-## 3. AI-Based Analysis
+### 3. AI-Based Analysis
 
 Connect to a Wi-Fi network.
 
